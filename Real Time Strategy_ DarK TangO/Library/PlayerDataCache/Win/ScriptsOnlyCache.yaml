@@ -2,7 +2,10 @@ ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
     - RTSNetworkManager
+    - Unit
+    - UnitCommandGiver
     - UnitMovement
+    - UnitSelectionHandler
     - UnitsSpawner
     Mirror.Components.dll:
     - Mirror.NetworkTransform
@@ -58,7 +61,6 @@ ScriptsOnlyBuild:
     - UnityEngine.Rendering.Universal.Tonemapping
     - UnityEngine.Rendering.Universal.UniversalAdditionalCameraData
     - UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset
-    - UnityEngine.Rendering.Universal.UniversalRenderPipelineEditorResources
     - UnityEngine.Rendering.Universal.Vignette
     UnityEngine.UI.dll:
     - UnityEngine.EventSystems.EventSystem
@@ -125,101 +127,107 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 12020}
     - Class: 114
-      Script: {instanceID: 12084}
+      Script: {instanceID: 12070}
     - Class: 114
-      Script: {instanceID: 12126}
+      Script: {instanceID: 12086}
     - Class: 114
-      Script: {instanceID: 12146}
+      Script: {instanceID: 12128}
     - Class: 114
-      Script: {instanceID: 12286}
+      Script: {instanceID: 12148}
     - Class: 114
-      Script: {instanceID: 12320}
+      Script: {instanceID: 12288}
     - Class: 114
-      Script: {instanceID: 12374}
+      Script: {instanceID: 12322}
     - Class: 114
-      Script: {instanceID: 12426}
+      Script: {instanceID: 12376}
     - Class: 114
-      Script: {instanceID: 12534}
+      Script: {instanceID: 12428}
     - Class: 114
-      Script: {instanceID: 12580}
+      Script: {instanceID: 12536}
     - Class: 114
-      Script: {instanceID: 12770}
+      Script: {instanceID: 12582}
     - Class: 114
-      Script: {instanceID: 12784}
+      Script: {instanceID: 12772}
     - Class: 114
-      Script: {instanceID: 12796}
+      Script: {instanceID: 12786}
     - Class: 114
-      Script: {instanceID: 13106}
+      Script: {instanceID: 12798}
     - Class: 114
-      Script: {instanceID: 13152}
+      Script: {instanceID: 13108}
     - Class: 114
-      Script: {instanceID: 13220}
+      Script: {instanceID: 13154}
     - Class: 114
-      Script: {instanceID: 13240}
+      Script: {instanceID: 13222}
     - Class: 114
-      Script: {instanceID: 13398}
+      Script: {instanceID: 13242}
     - Class: 114
-      Script: {instanceID: 13538}
+      Script: {instanceID: 13400}
     - Class: 114
-      Script: {instanceID: 13762}
+      Script: {instanceID: 13540}
     - Class: 114
-      Script: {instanceID: 13830}
+      Script: {instanceID: 13764}
     - Class: 114
-      Script: {instanceID: 13904}
+      Script: {instanceID: 13832}
     - Class: 114
-      Script: {instanceID: 14050}
+      Script: {instanceID: 13906}
     - Class: 114
-      Script: {instanceID: 14370}
+      Script: {instanceID: 14052}
     - Class: 114
-      Script: {instanceID: 14420}
+      Script: {instanceID: 14372}
     - Class: 114
-      Script: {instanceID: 14680}
+      Script: {instanceID: 14422}
     - Class: 114
-      Script: {instanceID: 14792}
+      Script: {instanceID: 14682}
     - Class: 114
-      Script: {instanceID: 14862}
+      Script: {instanceID: 14794}
     - Class: 114
-      Script: {instanceID: 14882}
+      Script: {instanceID: 14864}
     - Class: 114
-      Script: {instanceID: 15020}
+      Script: {instanceID: 14884}
     - Class: 114
-      Script: {instanceID: 15044}
+      Script: {instanceID: 15022}
     - Class: 114
-      Script: {instanceID: 15054}
+      Script: {instanceID: 15046}
     - Class: 114
-      Script: {instanceID: 15060}
+      Script: {instanceID: 15056}
     - Class: 114
-      Script: {instanceID: 15114}
+      Script: {instanceID: 15062}
     - Class: 114
-      Script: {instanceID: 15234}
+      Script: {instanceID: 15116}
     - Class: 114
-      Script: {instanceID: 15422}
+      Script: {instanceID: 15236}
     - Class: 114
-      Script: {instanceID: 15504}
+      Script: {instanceID: 15424}
     - Class: 114
-      Script: {instanceID: 15582}
+      Script: {instanceID: 15506}
     - Class: 114
-      Script: {instanceID: 15812}
+      Script: {instanceID: 15584}
     - Class: 114
-      Script: {instanceID: 15926}
+      Script: {instanceID: 15814}
     - Class: 114
-      Script: {instanceID: 16020}
+      Script: {instanceID: 15928}
     - Class: 114
-      Script: {instanceID: 16060}
+      Script: {instanceID: 16022}
     - Class: 114
-      Script: {instanceID: 16286}
+      Script: {instanceID: 16062}
     - Class: 114
-      Script: {instanceID: 16294}
+      Script: {instanceID: 16288}
     - Class: 114
-      Script: {instanceID: 16380}
+      Script: {instanceID: 16296}
     - Class: 114
-      Script: {instanceID: 16512}
+      Script: {instanceID: 16382}
     - Class: 114
-      Script: {instanceID: 16526}
+      Script: {instanceID: 16514}
     - Class: 114
-      Script: {instanceID: 16532}
+      Script: {instanceID: 16528}
     - Class: 114
-      Script: {instanceID: 19250}
+      Script: {instanceID: 16534}
+    - Class: 114
+      Script: {instanceID: 19438}
+    - Class: 114
+      Script: {instanceID: 19698}
+    - Class: 114
+      Script: {instanceID: 22344}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -229,6 +237,8 @@ ScriptsOnlyBuild:
     - Class: 195
       Script: {instanceID: 0}
     - Class: 196
+      Script: {instanceID: 0}
+    - Class: 212
       Script: {instanceID: 0}
     - Class: 213
       Script: {instanceID: 0}
@@ -323,6 +333,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
     className: TMP_SelectionCaret
+  - hash:
+      serializedVersion: 2
+      Hash: 68b6dc0edeb7b4cf82f98c957c01465f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: UnitsSpawner
   - hash:
       serializedVersion: 2
       Hash: 8c328a0ffa03c1bcb9332bb39f4f8453
@@ -1939,12 +1955,24 @@ ScriptsOnlyBuild:
     className: KcpTransport
   - hash:
       serializedVersion: 2
-      Hash: 68b6dc0edeb7b4cf82f98c957c01465f
+      Hash: c06b62713b27535048d86c9a519a5291
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
-    className: UnitsSpawner
+    className: Unit
+  - hash:
+      serializedVersion: 2
+      Hash: c91c24b7d3b6b2991572f426b51baff3
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: UnitSelectionHandler
+  - hash:
+      serializedVersion: 2
+      Hash: a821e86e9fa78f9981eed3f00213d888
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: UnitCommandGiver
   platform: 5
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
-  playerPath: D:/Projects/Real Time Strategy_ DarK TangO/Build/Real Time Strategy_
-    DarK TangO.exe
+  playerPath: D:/Projects/Real.Time.Strategy_DarK.TangO/Real Time Strategy_ DarK
+    TangO/Build/Real Time Strategy_ DarK TangO.exe
