@@ -2,6 +2,7 @@ ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
     - RTSNetworkManager
+    - RTSPlayer
     - Unit
     - UnitCommandGiver
     - UnitMovement
@@ -61,6 +62,7 @@ ScriptsOnlyBuild:
     - UnityEngine.Rendering.Universal.Tonemapping
     - UnityEngine.Rendering.Universal.UniversalAdditionalCameraData
     - UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset
+    - UnityEngine.Rendering.Universal.UniversalRenderPipelineEditorResources
     - UnityEngine.Rendering.Universal.Vignette
     UnityEngine.UI.dll:
     - UnityEngine.EventSystems.EventSystem
@@ -147,87 +149,89 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 12582}
     - Class: 114
-      Script: {instanceID: 12772}
+      Script: {instanceID: 12754}
     - Class: 114
-      Script: {instanceID: 12786}
+      Script: {instanceID: 12774}
     - Class: 114
-      Script: {instanceID: 12798}
+      Script: {instanceID: 12788}
     - Class: 114
-      Script: {instanceID: 13108}
+      Script: {instanceID: 12800}
     - Class: 114
-      Script: {instanceID: 13154}
+      Script: {instanceID: 13110}
     - Class: 114
-      Script: {instanceID: 13222}
+      Script: {instanceID: 13156}
     - Class: 114
-      Script: {instanceID: 13242}
+      Script: {instanceID: 13224}
     - Class: 114
-      Script: {instanceID: 13400}
+      Script: {instanceID: 13244}
     - Class: 114
-      Script: {instanceID: 13540}
+      Script: {instanceID: 13402}
     - Class: 114
-      Script: {instanceID: 13764}
+      Script: {instanceID: 13542}
     - Class: 114
-      Script: {instanceID: 13832}
+      Script: {instanceID: 13766}
     - Class: 114
-      Script: {instanceID: 13906}
+      Script: {instanceID: 13834}
     - Class: 114
-      Script: {instanceID: 14052}
+      Script: {instanceID: 13908}
     - Class: 114
-      Script: {instanceID: 14372}
+      Script: {instanceID: 14054}
     - Class: 114
-      Script: {instanceID: 14422}
+      Script: {instanceID: 14374}
     - Class: 114
-      Script: {instanceID: 14682}
+      Script: {instanceID: 14424}
     - Class: 114
-      Script: {instanceID: 14794}
+      Script: {instanceID: 14684}
     - Class: 114
-      Script: {instanceID: 14864}
+      Script: {instanceID: 14796}
     - Class: 114
-      Script: {instanceID: 14884}
+      Script: {instanceID: 14866}
     - Class: 114
-      Script: {instanceID: 15022}
+      Script: {instanceID: 14886}
     - Class: 114
-      Script: {instanceID: 15046}
+      Script: {instanceID: 14996}
     - Class: 114
-      Script: {instanceID: 15056}
+      Script: {instanceID: 15026}
     - Class: 114
-      Script: {instanceID: 15062}
+      Script: {instanceID: 15050}
     - Class: 114
-      Script: {instanceID: 15116}
+      Script: {instanceID: 15060}
     - Class: 114
-      Script: {instanceID: 15236}
+      Script: {instanceID: 15066}
     - Class: 114
-      Script: {instanceID: 15424}
+      Script: {instanceID: 15120}
     - Class: 114
-      Script: {instanceID: 15506}
+      Script: {instanceID: 15240}
     - Class: 114
-      Script: {instanceID: 15584}
+      Script: {instanceID: 15428}
     - Class: 114
-      Script: {instanceID: 15814}
+      Script: {instanceID: 15510}
     - Class: 114
-      Script: {instanceID: 15928}
+      Script: {instanceID: 15588}
     - Class: 114
-      Script: {instanceID: 16022}
+      Script: {instanceID: 15606}
     - Class: 114
-      Script: {instanceID: 16062}
+      Script: {instanceID: 15820}
     - Class: 114
-      Script: {instanceID: 16288}
+      Script: {instanceID: 15934}
     - Class: 114
-      Script: {instanceID: 16296}
+      Script: {instanceID: 16028}
     - Class: 114
-      Script: {instanceID: 16382}
+      Script: {instanceID: 16068}
     - Class: 114
-      Script: {instanceID: 16514}
+      Script: {instanceID: 16294}
     - Class: 114
-      Script: {instanceID: 16528}
+      Script: {instanceID: 16302}
+    - Class: 114
+      Script: {instanceID: 16388}
+    - Class: 114
+      Script: {instanceID: 16520}
     - Class: 114
       Script: {instanceID: 16534}
     - Class: 114
-      Script: {instanceID: 19438}
+      Script: {instanceID: 16540}
     - Class: 114
-      Script: {instanceID: 19698}
-    - Class: 114
-      Script: {instanceID: 22344}
+      Script: {instanceID: 19164}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -597,6 +601,12 @@ ScriptsOnlyBuild:
     assemblyName: Mirror.Cloud.dll
     namespaceName: Mirror.Cloud
     className: ApiConnector
+  - hash:
+      serializedVersion: 2
+      Hash: c06b62713b27535048d86c9a519a5291
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Unit
   - hash:
       serializedVersion: 2
       Hash: 0dbc3be398b4869a5c8d0d8481ee402c
@@ -1409,6 +1419,12 @@ ScriptsOnlyBuild:
     className: CinemachineVirtualCamera
   - hash:
       serializedVersion: 2
+      Hash: a821e86e9fa78f9981eed3f00213d888
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: UnitCommandGiver
+  - hash:
+      serializedVersion: 2
       Hash: a64b8ff703a69f3352c424e9d0bc1c49
     assemblyName: Unity.RenderPipelines.Core.Runtime.dll
     namespaceName: UnityEngine.Rendering
@@ -1611,6 +1627,12 @@ ScriptsOnlyBuild:
     assemblyName: Mirror.dll
     namespaceName: Mirror
     className: NetworkIdentity
+  - hash:
+      serializedVersion: 2
+      Hash: c91c24b7d3b6b2991572f426b51baff3
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: UnitSelectionHandler
   - hash:
       serializedVersion: 2
       Hash: d7bcfc1eb92c441b0be979120f82080a
@@ -1955,22 +1977,10 @@ ScriptsOnlyBuild:
     className: KcpTransport
   - hash:
       serializedVersion: 2
-      Hash: c06b62713b27535048d86c9a519a5291
+      Hash: 3b4c6a3d44d8fdf196555c2795644a70
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
-    className: Unit
-  - hash:
-      serializedVersion: 2
-      Hash: c91c24b7d3b6b2991572f426b51baff3
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: UnitSelectionHandler
-  - hash:
-      serializedVersion: 2
-      Hash: a821e86e9fa78f9981eed3f00213d888
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: UnitCommandGiver
+    className: RTSPlayer
   platform: 5
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
